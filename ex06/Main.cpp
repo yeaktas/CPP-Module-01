@@ -5,9 +5,9 @@ int main(int ac, char **av)
 {
 	if(ac < 2)
 	{
-		std::cout << "argument count is not enough" << std::endl;
+		std::cout << "Invalid number of arguments." << std::endl;
 		return (0);
 	}
-	Harl harlDolphin;
-	harlDolphin.complain(av[1]);
+	Harl h;
+	h.complain(av[1]);
 }
