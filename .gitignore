@@ -1,6 +1,9 @@
 .DS_Store
 .vscode
-Main
-a.out
-megaphone
 *.o
+a.out
+Brain
+Main
+megaphone
+Zombie
+Zombies
