@@ -6,8 +6,6 @@ HumanA::HumanA(std::string name, Weapon& Weapons):_name(name), _Weapon(Weapons){
 
 }
 
-
-
 void HumanA::attack( void ){
 
     std::cout << this->_name + " attacks with their " << this->_Weapon.getType() << std::endl;

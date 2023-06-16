@@ -18,3 +18,8 @@ void HumanB::attack( void ){
 
 }
 
+HumanB::~HumanB(){
+
+    std::cout << "Destructor called" << std::endl;
+}
+
